@@ -28,9 +28,10 @@ def printer(attendees)
 badges = batch_badge_creator(attendees)
 rooms = assign_rooms(attendees)
   badges.each do |line|
+  puts line
   end  
   rooms.each do |line|
-  puts "Hello, #{speaker}! You'll be assigned to room #{index}!"
+  puts line
   end
 end
 
